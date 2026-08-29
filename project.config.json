@@ -1,0 +1,16 @@
+{
+  "description": "风里约行微信小程序",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": false,
+    "urlCheck": true
+  },
+  "appid": "wx295b8dddbdc48b0a",
+  "projectname": "fengliyouyue",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "cloudbaseRoot": "cloudbase/"
+}

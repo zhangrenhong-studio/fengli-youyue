@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="风里有约 logo icon">
+  <defs>
+    <linearGradient id="bg" x1="107" y1="84" x2="917" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F5E9"/>
+      <stop offset=".5" stop-color="#DCECEC"/>
+      <stop offset="1" stop-color="#A7CED1"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(740 274) rotate(138) scale(468)">
+      <stop stop-color="#FFF4C6" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#FFF4C6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="178" y1="776" x2="853" y2="216" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#276F81"/>
+      <stop offset=".52" stop-color="#4C9A9F"/>
+      <stop offset="1" stop-color="#B4D8CA"/>
+    </linearGradient>
+    <linearGradient id="ribbonLight" x1="274" y1="733" x2="750" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9EFE6"/>
+      <stop offset="1" stop-color="#80B7B5"/>
+    </linearGradient>
+    <linearGradient id="promise" x1="637" y1="212" x2="786" y2="389" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD783"/>
+      <stop offset="1" stop-color="#E97862"/>
+    </linearGradient>
+    <filter id="shadow" x="70" y="70" width="900" height="890" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#315E69" flood-opacity=".16"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="238" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="238" fill="url(#halo)"/>
+  <!-- quiet grounding shadow -->
+  <path d="M174 793C344 837 663 859 860 729" fill="none" stroke="#4D8C94" stroke-opacity=".16" stroke-width="118" stroke-linecap="round" filter="url(#blur)"/>
+  <!-- Warm destination / the promise ahead -->
+  <circle cx="736" cy="300" r="100" fill="url(#promise)" filter="url(#shadow)"/>
+  <circle cx="704" cy="265" r="23" fill="#FFF7D9" opacity=".88"/>
+  <!-- one large open wind ribbon, intentionally asymmetrical and non-circular -->
+  <path d="M170 786C261 766 300 683 337 600C378 509 444 423 543 418C629 414 666 490 735 470C807 448 844 375 852 286C901 406 852 556 734 608C623 657 560 575 488 622C407 675 394 793 277 835C229 852 190 838 170 786Z" fill="url(#ribbon)" filter="url(#shadow)"/>
+  <!-- wind's inner light: an open invitation, not a closed ring -->
+  <path d="M225 777C297 731 316 629 383 547C445 470 524 460 575 496C623 529 659 554 724 528" fill="none" stroke="url(#ribbonLight)" stroke-width="30" stroke-linecap="round"/>
+  <!-- a bright path moving out of daily life toward the warm point -->
+  <path d="M315 739C385 695 409 602 484 568C563 531 602 591 663 565" fill="none" stroke="#FFF9E8" stroke-width="20" stroke-linecap="round" opacity=".96"/>
+  <!-- one quiet traveling point -->
+  <circle cx="416" cy="647" r="27" fill="#F7C975"/>
+</svg>

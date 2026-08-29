@@ -1,0 +1,21 @@
+# Dependencies and build artifacts
+node_modules/
+cloudfunctions/*/node_modules/
+
+# Local credentials and configuration secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Generated previews and local runtime output
+preview-qr*.png
+*.log
+.DS_Store
+
+# Local design scratch / generated artifacts
+design-prototype*/
+ui-preview*/
+.frontend-backups/
