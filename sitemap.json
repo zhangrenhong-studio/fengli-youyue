@@ -1,6 +1,11 @@
 {
-  "desc": "风里约行小程序页面索引",
+  "desc": "风里约行小程序页面索引（仅收录一级公开页面，私密/个人页面不参与搜索索引）",
   "rules": [
-    {"action": "allow", "page": "*"}
+    {"action": "allow", "page": "pages/home/home"},
+    {"action": "allow", "page": "pages/discover/discover"},
+    {"action": "allow", "page": "pages/create/create"},
+    {"action": "allow", "page": "pages/invitations/invitations"},
+    {"action": "allow", "page": "pages/profile/profile"},
+    {"action": "disallow", "page": "*"}
   ]
 }
