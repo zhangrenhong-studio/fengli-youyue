@@ -7,3 +7,5 @@
 @media(min-width:1200px){.home-community{grid-template-columns:repeat(4,minmax(0,1fr))}.home-community .card-image{height:210px}.home-community .card-body{padding:15px}.home-community .card-body h3{font-size:16px}.home-community .card-meta{flex-wrap:wrap}.home-community .author{flex-wrap:wrap}}
 @media(max-width:700px){.page-head:has(.location){display:block;position:relative;padding-bottom:28px}.page-head:has(.location) h1{font-size:29px}.page-head .location{position:absolute;bottom:-5px;right:0;max-width:none;white-space:nowrap;padding:4px 10px}.demo-bar{font-size:10px}.photo-grid{grid-template-columns:repeat(2,1fr)}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* Text-first creation entry; removed retired garden image. */
+.create-entry{grid-template-columns:1fr}
