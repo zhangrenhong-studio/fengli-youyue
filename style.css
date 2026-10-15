@@ -9,3 +9,6 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 /* Text-first creation entry; removed retired garden image. */
 .create-entry{grid-template-columns:1fr}
+
+/* GPT-generated brand mark only; preserve approved page typography/layout. */
+.brand .brand-image,.sidebar .brand .brand-image{display:block;flex:0 0 36px;width:36px;height:36px;border:0;background:none;border-radius:0;padding:0}.brand-image img{width:100%;height:100%;object-fit:contain}.mobile-header .brand{display:flex;align-items:center;gap:9px}.mobile-header .brand .brand-image{flex-basis:30px;width:30px;height:30px}

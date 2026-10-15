@@ -23,6 +23,8 @@ def inline(match):
         cache[path] = 'data:image/jpeg;base64,' + base64.b64encode(image).decode('ascii')
     return cache[path]
 html = re.sub(r'assets/routes/[a-z0-9-]+\.jpg', inline, html)
+html = re.sub(r'assets/brand/[a-z0-9-]+\.png', lambda m: 'data:image/png;base64,' + base64.b64encode((ROOT / m.group(0)).read_bytes()).decode('ascii'), html)
+assert 'assets/brand/' not in html
 assert 'assets/routes/' not in html
 assert not re.search(r'<(?:script|link)[^>]+(?:src|href)=["\'](?:https?:|(?:app|data)\.js|style\.css)', html)
 output = ROOT / 'standalone.html'
