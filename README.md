@@ -4,7 +4,9 @@
 
 ## 预览状态
 
-仓库目前保持私有。GitHub 当前套餐不支持此私有仓库的 Pages，在线预览尚未启用；下载 `standalone.html` 可离线体验。
+在线预览：https://zhangrenhong-studio.github.io/fengli-youyue/
+
+仓库已公开，使用 GitHub Pages 发布。也可下载 `standalone.html` 离线体验。
 
 本仓库主版本已从微信小程序切换为 H5；旧小程序保留在 Git 历史提交 `9e8ee8a8522c6a4683fad092a3bf430070fa2029` 中，未接入其云开发服务。
 
